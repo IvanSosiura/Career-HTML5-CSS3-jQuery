@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media.css" type="text/css">
+
+	<title>КАРЬЕР</title>
+
+</head>
+
+<body>
+
+	<header>
+		
+	        <nav class="main_menu">
+               <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+                <label for="menu" class="toggleMenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink" height="25px" version="1.1" viewBox="0 0 25 25" width="25px"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="TabBar-Icons" stroke="none" stroke-width="1"><g fill="#F9BF3A" id="Hamburger"><path d="M0,2 L25,2 L25,6 L0,6 L0,2 Z M0,10 L25,10 L25,14 L0,14 L0,10 Z M0,18 L25,18 L25,22 L0,22 L0,18 Z"/></g></g></svg></label>
+                <ul>
+                    <div class="logo">
+						<h3>Богдановский</h3>
+						<h1>КАРЬЕР</h1>
+					</div>
+                    <li><a href="javascript://0" onclick="slowScroll('#add')">АДРЕС КАРЬЕРА</a></li>
+                    <li><a class="nav_but" href="javascript://0" onclick="slowScroll('#prod')">ПРОИЗВОДСТВО</a></li>
+                    <li class="call"><a class="callback" href="#openModal">Заказать звонок</a></li>
+                </ul>
+	        </nav>
+	    
+	</header>
+
+	<div id="openModal" class="popup_container modalDialog">
+        
+        <form class="popup">    
+            <a href="#close" title="Close" class="close1"><i class="fa fa-times" aria-hidden="true"></i></a>     
+            <h2>Обратная связь</h2>
+            <input name="user" type="text" placeholder="Имя">
+            <input name="email" type="text" placeholder="Email">
+            <input name="phone" type="text" placeholder="Телефон *" required>
+            <button type="submit">Отправить</button>
+        </form>
+        
+    </div>
+
+	<div id="slider-container">  
+ 
+	  <ul class="slides">
+	    <li class="solid-bg"><div></div></li>
+	    <li><div></div></li>    
+	    <li class="solid-bg"><div></div></li>  
+	    <li><div></div></li>
+	  </ul>
+
+	   <div class="back-l prev"><label class="left" for="slide-1"></label></div>
+		<div class="back-r next"><label class="right" for="slide-2"></label></div>
+	   </div>
+	  
+	</div>
+	
+	<div class="content">
+
+		<div class="info">
+
+			<div class="logo-small">
+						<h3>Богдановский</h3>
+						<h1>КАРЬЕР</h1>
+					</div>
+
+			<h2 id="prod" class="prod_h2">ПРОИЗВОДИМ И ПРОДАЕМ ЩЕБЕНЬ</h2>
+			<p>Площадь участка 96,1 га. Щебень и гравий из плотных пород для строительных работ. Прочность соответ-<br> ствует марке 800 (ДР-12). Запасы по гравию 28 %. Пески и пески-отсевы Богдановского-2 участка могут быть использованы в качестве строительного и дорожного материала. Мощность толщи 12-22,1 метра. Уровень грунтовых вод расположен ниже подошвы полезной толщи. Концентрация радионуклидов соответствует 1 классу СП 2.6.1.758-99.</p>
+			<p class="parag"><span>Щебень 20×40</span> пригоден в производстве бетона и изготовлении конструкций из него, для дорожного строи-<br>тельства при закладке фундамента зданий, при возведении производственных всех видов сооружений и др.</p>
+			
+			<h2 id="add" class="adres_h2">АДРЕС КАРЬЕРА</h2>
+			<p><img src="img/map.png" alt="ico"> поселок Ханино, Суворовский район, Тульская область, Россия</p>
+			
+		</div>
+
+		<div class="contact">
+
+			<h2>КОНТАКТЫ</h2>
+			<h3>Звоните:</h3>
+			<a href="tel:8(800)5559399">8 (800) 555-93-99</a>
+			<a href="tel:8(459)6835585">8 (459) 683-55-85</a>
+
+		</div>
+
+	</div>
+
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88832.54009078255!2d36.5600598498526!3d54.22128459105161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4134840371e383e9%3A0x230bb794287d4212!2z0KXQsNC90LjQvdC-LCDQotGD0LvRjNGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgMzAxNDIw!5e0!3m2!1sru!2sua!4v1497007765229" width="1920" height="431" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+
+	<footer>
+
+		<p>© 2015, Copyright  </p>
+
+	</footer>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>
